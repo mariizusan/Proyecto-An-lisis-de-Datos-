@@ -9,12 +9,12 @@ en textos de fanfiction mediante RoBERTa-GoEmotions + LSTM bidireccional.
 - Mariana Zúñiga Sánchez
 
 ## Estructura del repositorio
-- src/                     
-config.py            # Configuración del web scraping 
-configl.py           # Configuraciones del modelo 
-model.py             # Arquitectura de la red neuronal (LSTM / Transformers)
-train.py             # Script de entrenamiento y bucles de optimización
-feature_extraction.py # Extracción de características y embeddings
+src/                     
+- config.py            # Configuración del web scraping 
+- configl.py           # Configuraciones del modelo 
+- model.py             # Arquitectura de la red neuronal (LSTM / Transformers)
+- train.py             # Script de entrenamiento y bucles de optimización
+- feature_extraction.py # Extracción de características y embeddings
 
 scripts/                 
 - scraper1.py          # Extractor de datos de fanfics (AO3)
@@ -30,18 +30,18 @@ scripts/
 
 notebooks/               # EXPERIMENTACIÓN Y EXPLORACIÓN
 - Análisis.ipynb       # Pruebas iniciales de correlaciones y tropos
-ao3_pipeline.ipynb   # Pruebas interactivas del flujo de descarga
-entrenamiento.ipynb  # Ajuste fino y curvas de aprendizaje del modelo
-ROBERTA.ipynb        # Inferencia y pruebas con GoEmotions (SamLowe)
+- ao3_pipeline.ipynb   # Pruebas interactivas del flujo de descarga
+- entrenamiento.ipynb  # Ajuste fino y curvas de aprendizaje del modelo
+- ROBERTA.ipynb        # Inferencia y pruebas con GoEmotions (SamLowe)
 
 data/                    # DATOS (Solo el índice viaja a Git)
-dataset.csv          # Índice general de fanfics, capítulos y metadata
-raw/                 # Archivos JSON crudos por capítulo (Ignorado en Git)
-features/            # Matrices .pkl con embeddings emocionales (Ignorado en Git)
+- dataset.csv          # Índice general de fanfics, capítulos y metadata
+- raw/                 # Archivos JSON crudos por capítulo (Ignorado en Git)
+- features/            # Matrices .pkl con embeddings emocionales (Ignorado en Git)
 
 results/                 # PRODUCTOS FINALIZADOS (Visualizaciones y Métricas)
- *.png                # Gráficos de desempeño, matrices de Pearson y Spearman
-grid_search_results.json # Historial de hiperparámetros evaluados
- figures/             # Paneles de figuras exportados listos para análisis
-    fanfics/         # Curvas emocionales detalladas por historia
-        oneshots/        # Perfiles emocionales de textos de un solo capítulo
+- *.png                # Gráficos de desempeño, matrices de Pearson y Spearman
+- grid_search_results.json # Historial de hiperparámetros evaluados
+  -figures/             # Paneles de figuras exportados listos para análisis
+  -fanfics/         # Curvas emocionales detalladas por historia
+     - oneshots/        # Perfiles emocionales de textos de un solo capítulo
