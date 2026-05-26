@@ -1,0 +1,470 @@
+[
+    {
+        "experiment_id": 1,
+        "params": {
+            "alpha": 0.3,
+            "lr": 0.0001,
+            "weight_decay": 0.0001,
+            "batch_size": 16
+        },
+        "val_loss": 0.2770000249147415,
+        "val_trope_acc": 0.4634146341463415,
+        "val_trope_f1": 0.42601126472094214,
+        "val_reader_loss_mse": 0.0055691103140513105
+    },
+    {
+        "experiment_id": 2,
+        "params": {
+            "alpha": 0.3,
+            "lr": 0.0001,
+            "weight_decay": 0.0001,
+            "batch_size": 32
+        },
+        "val_loss": 0.29572583734989166,
+        "val_trope_acc": 0.4146341463414634,
+        "val_trope_f1": 0.35699797160243407,
+        "val_reader_loss_mse": 0.014135952107608318
+    },
+    {
+        "experiment_id": 3,
+        "params": {
+            "alpha": 0.3,
+            "lr": 0.0001,
+            "weight_decay": 0.01,
+            "batch_size": 16
+        },
+        "val_loss": 0.2473346342643102,
+        "val_trope_acc": 0.5365853658536586,
+        "val_trope_f1": 0.5509930220075148,
+        "val_reader_loss_mse": 0.005211530563731988
+    },
+    {
+        "experiment_id": 4,
+        "params": {
+            "alpha": 0.3,
+            "lr": 0.0001,
+            "weight_decay": 0.01,
+            "batch_size": 32
+        },
+        "val_loss": 0.27738773077726364,
+        "val_trope_acc": 0.4878048780487805,
+        "val_trope_f1": 0.4551302002282394,
+        "val_reader_loss_mse": 0.00879034074023366
+    },
+    {
+        "experiment_id": 5,
+        "params": {
+            "alpha": 0.3,
+            "lr": 0.0005,
+            "weight_decay": 0.0001,
+            "batch_size": 16
+        },
+        "val_loss": 0.25076475739479065,
+        "val_trope_acc": 0.6341463414634146,
+        "val_trope_f1": 0.6537634408602151,
+        "val_reader_loss_mse": 0.004370308481156826
+    },
+    {
+        "experiment_id": 6,
+        "params": {
+            "alpha": 0.3,
+            "lr": 0.0005,
+            "weight_decay": 0.0001,
+            "batch_size": 32
+        },
+        "val_loss": 0.22316747903823853,
+        "val_trope_acc": 0.5853658536585366,
+        "val_trope_f1": 0.6222222222222222,
+        "val_reader_loss_mse": 0.004012438119389117
+    },
+    {
+        "experiment_id": 7,
+        "params": {
+            "alpha": 0.3,
+            "lr": 0.0005,
+            "weight_decay": 0.01,
+            "batch_size": 16
+        },
+        "val_loss": 0.21236886084079742,
+        "val_trope_acc": 0.7317073170731707,
+        "val_trope_f1": 0.7278780757041626,
+        "val_reader_loss_mse": 0.003904640985031923
+    },
+    {
+        "experiment_id": 8,
+        "params": {
+            "alpha": 0.3,
+            "lr": 0.0005,
+            "weight_decay": 0.01,
+            "batch_size": 32
+        },
+        "val_loss": 0.2270907387137413,
+        "val_trope_acc": 0.5853658536585366,
+        "val_trope_f1": 0.6045429666119321,
+        "val_reader_loss_mse": 0.004071562783792615
+    },
+    {
+        "experiment_id": 9,
+        "params": {
+            "alpha": 0.3,
+            "lr": 0.001,
+            "weight_decay": 0.0001,
+            "batch_size": 16
+        },
+        "val_loss": 0.22729453444480896,
+        "val_trope_acc": 0.6585365853658537,
+        "val_trope_f1": 0.6515151515151515,
+        "val_reader_loss_mse": 0.0036352004390209913
+    },
+    {
+        "experiment_id": 10,
+        "params": {
+            "alpha": 0.3,
+            "lr": 0.001,
+            "weight_decay": 0.0001,
+            "batch_size": 32
+        },
+        "val_loss": 0.25626353919506073,
+        "val_trope_acc": 0.5853658536585366,
+        "val_trope_f1": 0.57494859608319,
+        "val_reader_loss_mse": 0.003601405187509954
+    },
+    {
+        "experiment_id": 11,
+        "params": {
+            "alpha": 0.3,
+            "lr": 0.001,
+            "weight_decay": 0.01,
+            "batch_size": 16
+        },
+        "val_loss": 0.24737266699473062,
+        "val_trope_acc": 0.6585365853658537,
+        "val_trope_f1": 0.6421356421356421,
+        "val_reader_loss_mse": 0.003765284704665343
+    },
+    {
+        "experiment_id": 12,
+        "params": {
+            "alpha": 0.3,
+            "lr": 0.001,
+            "weight_decay": 0.01,
+            "batch_size": 32
+        },
+        "val_loss": 0.2226949706673622,
+        "val_trope_acc": 0.6829268292682927,
+        "val_trope_f1": 0.687948131197559,
+        "val_reader_loss_mse": 0.0037400182336568832
+    },
+    {
+        "experiment_id": 13,
+        "params": {
+            "alpha": 0.5,
+            "lr": 0.0001,
+            "weight_decay": 0.0001,
+            "batch_size": 16
+        },
+        "val_loss": 0.4223497311274211,
+        "val_trope_acc": 0.5609756097560976,
+        "val_trope_f1": 0.5595959595959595,
+        "val_reader_loss_mse": 0.007212044981618722
+    },
+    {
+        "experiment_id": 14,
+        "params": {
+            "alpha": 0.5,
+            "lr": 0.0001,
+            "weight_decay": 0.0001,
+            "batch_size": 32
+        },
+        "val_loss": 0.4713108092546463,
+        "val_trope_acc": 0.5121951219512195,
+        "val_trope_f1": 0.49579124579124584,
+        "val_reader_loss_mse": 0.05181622505187988
+    },
+    {
+        "experiment_id": 15,
+        "params": {
+            "alpha": 0.5,
+            "lr": 0.0001,
+            "weight_decay": 0.01,
+            "batch_size": 16
+        },
+        "val_loss": 0.41197585066159564,
+        "val_trope_acc": 0.6341463414634146,
+        "val_trope_f1": 0.6269044964697139,
+        "val_reader_loss_mse": 0.006024965705970923
+    },
+    {
+        "experiment_id": 16,
+        "params": {
+            "alpha": 0.5,
+            "lr": 0.0001,
+            "weight_decay": 0.01,
+            "batch_size": 32
+        },
+        "val_loss": 0.4761922359466553,
+        "val_trope_acc": 0.5121951219512195,
+        "val_trope_f1": 0.47492877492877494,
+        "val_reader_loss_mse": 0.04392314329743385
+    },
+    {
+        "experiment_id": 17,
+        "params": {
+            "alpha": 0.5,
+            "lr": 0.0005,
+            "weight_decay": 0.0001,
+            "batch_size": 16
+        },
+        "val_loss": 0.451665739218394,
+        "val_trope_acc": 0.4634146341463415,
+        "val_trope_f1": 0.418342151675485,
+        "val_reader_loss_mse": 0.005541912435243527
+    },
+    {
+        "experiment_id": 18,
+        "params": {
+            "alpha": 0.5,
+            "lr": 0.0005,
+            "weight_decay": 0.0001,
+            "batch_size": 32
+        },
+        "val_loss": 0.41035477817058563,
+        "val_trope_acc": 0.4634146341463415,
+        "val_trope_f1": 0.4275362318840579,
+        "val_reader_loss_mse": 0.00505649927072227
+    },
+    {
+        "experiment_id": 19,
+        "params": {
+            "alpha": 0.5,
+            "lr": 0.0005,
+            "weight_decay": 0.01,
+            "batch_size": 16
+        },
+        "val_loss": 0.42210976282755536,
+        "val_trope_acc": 0.5365853658536586,
+        "val_trope_f1": 0.5361628709454797,
+        "val_reader_loss_mse": 0.004912704074134429
+    },
+    {
+        "experiment_id": 20,
+        "params": {
+            "alpha": 0.5,
+            "lr": 0.0005,
+            "weight_decay": 0.01,
+            "batch_size": 32
+        },
+        "val_loss": 0.38697649538517,
+        "val_trope_acc": 0.6341463414634146,
+        "val_trope_f1": 0.6475869809203143,
+        "val_reader_loss_mse": 0.004306583548896015
+    },
+    {
+        "experiment_id": 21,
+        "params": {
+            "alpha": 0.5,
+            "lr": 0.001,
+            "weight_decay": 0.0001,
+            "batch_size": 16
+        },
+        "val_loss": 0.4554965098698934,
+        "val_trope_acc": 0.4634146341463415,
+        "val_trope_f1": 0.43241000103745203,
+        "val_reader_loss_mse": 0.004493232894067963
+    },
+    {
+        "experiment_id": 22,
+        "params": {
+            "alpha": 0.5,
+            "lr": 0.001,
+            "weight_decay": 0.0001,
+            "batch_size": 32
+        },
+        "val_loss": 0.3941708207130432,
+        "val_trope_acc": 0.5609756097560976,
+        "val_trope_f1": 0.5838383838383838,
+        "val_reader_loss_mse": 0.00386663933750242
+    },
+    {
+        "experiment_id": 23,
+        "params": {
+            "alpha": 0.5,
+            "lr": 0.001,
+            "weight_decay": 0.01,
+            "batch_size": 16
+        },
+        "val_loss": 0.45488934715588886,
+        "val_trope_acc": 0.5609756097560976,
+        "val_trope_f1": 0.5641998734977862,
+        "val_reader_loss_mse": 0.00431472094108661
+    },
+    {
+        "experiment_id": 24,
+        "params": {
+            "alpha": 0.5,
+            "lr": 0.001,
+            "weight_decay": 0.01,
+            "batch_size": 32
+        },
+        "val_loss": 0.4068113714456558,
+        "val_trope_acc": 0.6097560975609756,
+        "val_trope_f1": 0.6296064089167538,
+        "val_reader_loss_mse": 0.004187448299489915
+    },
+    {
+        "experiment_id": 25,
+        "params": {
+            "alpha": 0.7,
+            "lr": 0.0001,
+            "weight_decay": 0.0001,
+            "batch_size": 16
+        },
+        "val_loss": 0.5807240804036459,
+        "val_trope_acc": 0.5609756097560976,
+        "val_trope_f1": 0.5822510822510822,
+        "val_reader_loss_mse": 0.014756440185010433
+    },
+    {
+        "experiment_id": 26,
+        "params": {
+            "alpha": 0.7,
+            "lr": 0.0001,
+            "weight_decay": 0.0001,
+            "batch_size": 32
+        },
+        "val_loss": 0.629528671503067,
+        "val_trope_acc": 0.5609756097560976,
+        "val_trope_f1": 0.5623931623931625,
+        "val_reader_loss_mse": 0.06578501686453819
+    },
+    {
+        "experiment_id": 27,
+        "params": {
+            "alpha": 0.7,
+            "lr": 0.0001,
+            "weight_decay": 0.01,
+            "batch_size": 16
+        },
+        "val_loss": 0.5501799980799357,
+        "val_trope_acc": 0.6097560975609756,
+        "val_trope_f1": 0.6285647498831229,
+        "val_reader_loss_mse": 0.01163887046277523
+    },
+    {
+        "experiment_id": 28,
+        "params": {
+            "alpha": 0.7,
+            "lr": 0.0001,
+            "weight_decay": 0.01,
+            "batch_size": 32
+        },
+        "val_loss": 0.6170397996902466,
+        "val_trope_acc": 0.5121951219512195,
+        "val_trope_f1": 0.489337822671156,
+        "val_reader_loss_mse": 0.07573508098721504
+    },
+    {
+        "experiment_id": 29,
+        "params": {
+            "alpha": 0.7,
+            "lr": 0.0005,
+            "weight_decay": 0.0001,
+            "batch_size": 16
+        },
+        "val_loss": 0.6090041200319926,
+        "val_trope_acc": 0.5609756097560976,
+        "val_trope_f1": 0.5723905723905723,
+        "val_reader_loss_mse": 0.005489825115849574
+    },
+    {
+        "experiment_id": 30,
+        "params": {
+            "alpha": 0.7,
+            "lr": 0.0005,
+            "weight_decay": 0.0001,
+            "batch_size": 32
+        },
+        "val_loss": 0.5928612351417542,
+        "val_trope_acc": 0.5121951219512195,
+        "val_trope_f1": 0.5098039215686274,
+        "val_reader_loss_mse": 0.03539123386144638
+    },
+    {
+        "experiment_id": 31,
+        "params": {
+            "alpha": 0.7,
+            "lr": 0.0005,
+            "weight_decay": 0.01,
+            "batch_size": 16
+        },
+        "val_loss": 0.5880583425362905,
+        "val_trope_acc": 0.5365853658536586,
+        "val_trope_f1": 0.5452595452595452,
+        "val_reader_loss_mse": 0.007634660229086876
+    },
+    {
+        "experiment_id": 32,
+        "params": {
+            "alpha": 0.7,
+            "lr": 0.0005,
+            "weight_decay": 0.01,
+            "batch_size": 32
+        },
+        "val_loss": 0.5060858428478241,
+        "val_trope_acc": 0.7317073170731707,
+        "val_trope_f1": 0.7345029239766081,
+        "val_reader_loss_mse": 0.005619825096800923
+    },
+    {
+        "experiment_id": 33,
+        "params": {
+            "alpha": 0.7,
+            "lr": 0.001,
+            "weight_decay": 0.0001,
+            "batch_size": 16
+        },
+        "val_loss": 0.5292677779992422,
+        "val_trope_acc": 0.6585365853658537,
+        "val_trope_f1": 0.6683760683760683,
+        "val_reader_loss_mse": 0.004057749252145489
+    },
+    {
+        "experiment_id": 34,
+        "params": {
+            "alpha": 0.7,
+            "lr": 0.001,
+            "weight_decay": 0.0001,
+            "batch_size": 32
+        },
+        "val_loss": 0.5289772003889084,
+        "val_trope_acc": 0.7560975609756098,
+        "val_trope_f1": 0.7504290004290004,
+        "val_reader_loss_mse": 0.004655855358578265
+    },
+    {
+        "experiment_id": 35,
+        "params": {
+            "alpha": 0.7,
+            "lr": 0.001,
+            "weight_decay": 0.01,
+            "batch_size": 16
+        },
+        "val_loss": 0.6320880651473999,
+        "val_trope_acc": 0.5121951219512195,
+        "val_trope_f1": 0.5341895042617436,
+        "val_reader_loss_mse": 0.007007556346555551
+    },
+    {
+        "experiment_id": 36,
+        "params": {
+            "alpha": 0.7,
+            "lr": 0.001,
+            "weight_decay": 0.01,
+            "batch_size": 32
+        },
+        "val_loss": 0.5896259248256683,
+        "val_trope_acc": 0.5121951219512195,
+        "val_trope_f1": 0.5022899243329351,
+        "val_reader_loss_mse": 0.006437775446102023
+    }
+]

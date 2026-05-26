@@ -1,0 +1,8 @@
+data/raw/
+data/features/*.pkl
+models/*.pt
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.env
